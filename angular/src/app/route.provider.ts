@@ -15,6 +15,12 @@ function configureRoutes(routes: RoutesService) {
         order: 1,
         layout: eLayoutType.application,
       },
+      {
+        path: '/users',
+        name: 'Users',
+        iconClass: 'fas fa-user',
+        layout: eLayoutType.empty,
+      },
     ]);
   };
 }
